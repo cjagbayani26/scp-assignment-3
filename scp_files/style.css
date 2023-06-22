@@ -1,0 +1,150 @@
+/* VARIABLES */
+:root {
+    --main-color: #e50914;
+    --text-color: #020307;
+    --bg-color: #fff;
+}
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+
+
+* {
+font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+scroll-padding-top: 2rem;
+scroll-behavior: smooth;
+}
+
+/* CUSTOM SCROLL BAR */
+html::-webkit-scrollbar{
+width: 0.5rem;
+background: #020307;
+}
+
+html::-webkit-scrollbar-thumb {
+background: #e50914;
+border-radius: 5rem;
+}
+
+/* Body Styles */
+body {
+background: #000;
+color: #fff;
+padding: 15px;
+min-height: 100%;
+width: auto;    
+}
+  
+  /* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+.navbar-dark {
+    background: linear-gradient(to right, red, purple);
+  }
+  
+  /* Centered Dropdown Menu on Mobile */
+  @media (max-width: 767.98px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-nav .nav-item {
+      display: inline-block;
+    }
+  }
+  
+  /* Page Title Styles */
+  h1 {
+    max-width: 1500px;
+    font-size: 4rem;
+    font-weight: 650;
+    padding-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #e50914;
+}
+
+h2 {
+    max-width: 1200px;
+    padding-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+  }
+  
+  
+  /* Responsive Image Styles */
+img {
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    border: 5px solid red;
+  }
+  
+  /* Button Styles */
+  .btn {
+    margin-top: 10px;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    background: linear-gradient(to right, red, purple);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, purple, red);
+  }
+  
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 767px) {
+    /* Body Styles */
+    body {
+      padding-top: 10px;
+    }
+  
+    /* Page Title Styles */
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+      }
+  
+    /* Navbar Styles */
+    .navbar {
+      margin-bottom: 10px;
+    }
+
+    /* CUSTOM SCROLL BAR */
+    html::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #020307;
+    }
+    
+    html::-webkit-scrollbar-thumb {
+    background: #e50914;
+    border-radius: 5rem;
+    }
+  }
+  
